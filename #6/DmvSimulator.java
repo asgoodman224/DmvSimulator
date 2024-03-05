@@ -31,6 +31,7 @@ public class DmvSimulator {
         // Inform the user if they don't have required paperwork
         if (random.nextBoolean()) {
             System.out.println("Sorry, you don't have the required paperwork. Please come back with the necessary documents.");
+            System.out.println("HAHAHHAHAHHAHAHAHHAHAHAAHAHHAHHAHAHAHAH!");
         } else {
             System.out.println("You don't have the paperwork, get out and don't come back until you do!");
         }
