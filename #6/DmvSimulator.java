@@ -4,9 +4,9 @@ public class DmvSimulator {
         // Welcome message
         System.out.println("Welcome to the DMV!");
 
-        // Generate a random number between 1 and 100 for the user
+        // Generate a random number between 1 and 200 for the user
         Random random = new Random();
-        int userNumber = random.nextInt(100) + 1;
+        int userNumber = random.nextInt(200) + 1;
         System.out.println("Your number is: " + userNumber);
         System.out.println("Please wait until your number is called.");
 
@@ -23,8 +23,8 @@ public class DmvSimulator {
             System.out.println("Number " + currentNumber + " please come forward.");
             currentNumber++;
 
-            // If current number exceeds 100, wrap around to 1
-            if (currentNumber > 100)
+            // If current number exceeds 200, wrap around to 1
+            if (currentNumber > 200)
                 currentNumber = 1;
         }
 
