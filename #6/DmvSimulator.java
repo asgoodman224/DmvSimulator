@@ -32,7 +32,7 @@ public class DmvSimulator {
         if (random.nextBoolean()) {
             System.out.println("Sorry, you don't have the required paperwork. Please come back with the necessary documents.");
         } else {
-            System.out.println("Congratulations! You have all the required paperwork.");
+            System.out.println("You don't have the paperwork, get out and don't come back until you do!");
         }
     }
 }
